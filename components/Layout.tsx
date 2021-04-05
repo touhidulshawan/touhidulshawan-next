@@ -9,7 +9,6 @@ export interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ title, children }) => {
   const darkMode = useTheme();
-  console.log(darkMode);
   return (
     <>
       <Head>
