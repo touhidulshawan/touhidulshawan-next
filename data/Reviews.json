@@ -1,0 +1,58 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "client_name": "rebeccayeap",
+      "star": 5,
+      "client_txt": "As a UX designer, I had very meticulous details to be implemented. He made changes to the project over 11 times and let me know the limitations earlier on. I really appreciate his patience and responsiveness throughout this process."
+    },
+    {
+      "id": 2,
+      "client_name": "magdarached",
+      "star": 5,
+      "client_txt": "it was a great experience working with this guy.. he knows the way of the work should be done.. also a quite good response to all my wants. satisfied and looking forward to working more with him :)"
+    },
+    {
+      "id": 3,
+      "client_name": "mehtabakram",
+      "star": 5,
+      "client_txt": "frontwebdev delivered exactly what we asked for. And delivery was on time and swift. He was very honest during our project. Highly recommended. Will definitely use you again"
+    },
+    {
+      "id": 4,
+      "client_name": "josem8",
+      "star": 5,
+      "client_txt": "wow! I just cant believe that can be done so fast! I am 100% satisfied with the service and communication with the developer. I will definitely get back to you for more projects. Highly recommended"
+    },
+    {
+      "id": 5,
+      "client_name": "cokeibunor",
+      "star": 5,
+      "client_txt": "Very impressed with the timely delivery"
+    },
+    {
+      "id": 6,
+      "client_name": "marcello1967",
+      "star": 5,
+      "client_txt": "Excellent Seller"
+    },
+    {
+      "id": 7,
+      "client_name": "helencasendra",
+      "star": 5,
+      "client_txt": "That was really a very fast delivery ever and he made a quality work. highly recommended."
+    },
+    {
+      "id": 8,
+      "client_name": "wafimohamed",
+      "star": 5,
+      "client_txt": "Best work"
+    },
+    {
+      "id": 9,
+      "client_name": "iluvmelodymusic",
+      "star": 4,
+      "client_txt": "Very decent work for the price but it’s going to need more to complete the entire website. He should share that they will need a back end developer on the ad."
+    }
+  ]
+}

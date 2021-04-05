@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { ThemeProvider } from "../context/useThemeContext";
+import { ThemeProvider, useTheme } from "../context/useThemeContext";
 import NavBar from "./navBar/NavBar";
 
 export interface LayoutProps {
@@ -8,17 +8,23 @@ export interface LayoutProps {
 }
 
 const Layout: React.FC<LayoutProps> = ({ title, children }) => {
+  const darkMode = useTheme();
+  console.log(darkMode);
   return (
-    <ThemeProvider>
+    <>
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <NavBar />
-      </header>
-      <main>{children}</main>
-    </ThemeProvider>
+      <div className={`${darkMode ? "dark" : ""}`}>
+        <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+          <header>
+            <NavBar />
+          </header>
+          <main>{children}</main>
+        </div>
+      </div>
+    </>
   );
 };
 
