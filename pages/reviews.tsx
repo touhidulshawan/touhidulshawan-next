@@ -56,6 +56,7 @@ export async function getStaticProps() {
     props: {
       reviews: data.reviews,
     },
+    revalidate: 10,
   };
 }
 
