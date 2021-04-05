@@ -1,8 +1,9 @@
+import React from "react";
 import Layout from "../components/Layout";
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <Layout title="Home">
-      <h1>hello</h1>
+      <h1>Home</h1>
     </Layout>
   );
 };
