@@ -6,6 +6,9 @@ module.exports = {
       animation: {
         "spin-slow": "spin 5s linear infinite",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   variants: {

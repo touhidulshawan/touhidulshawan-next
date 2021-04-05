@@ -16,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ title, children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={`${darkMode ? "dark" : ""}`}>
-        <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+        <div className="min-h-screen bg-gray-100 dark:bg-gray-900 font-roboto">
           <header>
             <NavBar />
           </header>
