@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ title, children }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="theme-color" />
+        <meta name="theme-color" content="#0F172A" />
         <link rel="icon" href="/favicon.ico" />
         <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
         <link href="/android-chrome-192x192.png" rel="icon" sizes="192x192" />
