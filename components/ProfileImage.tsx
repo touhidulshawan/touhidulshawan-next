@@ -8,7 +8,7 @@ const ProfileImg: React.FC = () => {
         // priority
         objectFit="cover"
         // layout="fill"
-        src="/img/Shawan-Potrait.svg"
+        src="/img/Shawan-Portrait.svg"
         alt="portfolio img"
         width={350}
         height={360}
