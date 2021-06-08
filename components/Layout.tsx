@@ -15,8 +15,12 @@ const Layout: React.FC<LayoutProps> = ({ title, children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <meta name="theme-color" />
-        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
+        <link href="/android-chrome-192x192.png" rel="icon" sizes="192x192" />
+        <link href="/android-chrome-512x512.png" rel="icon" sizes="512x512" />
+        <link href="/favicon-16x16.png" rel="icon" sizes="16x16" />
+        <title>{title}</title>
       </Head>
       <div className={`${darkMode ? "dark" : ""}`}>
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 font-roboto">
