@@ -75,7 +75,7 @@ const Skills: React.FC = () => {
           <Skill
             icon={<DiMongodb />}
             skillText="mongodb"
-            color="text-green-700 dark:text-green-500"
+            color="text-green-600 dark:text-green-400"
           />
           <Skill
             icon={<SiGraphql />}
