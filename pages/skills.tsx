@@ -10,9 +10,12 @@ import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiNextDotJs } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { SiGraphql } from "react-icons/si";
+import { SiApollographql } from "react-icons/si";
 import { DiGit } from "react-icons/di";
 import { GrArchlinux } from "react-icons/gr";
-import { SiVim } from "react-icons/si";
+import { SiNeovim } from "react-icons/si";
 
 const Skills: React.FC = () => {
   return (
@@ -69,10 +72,25 @@ const Skills: React.FC = () => {
             skillText="nodejs"
             color="text-green-600 dark:text-green-400"
           />
+          <Skill
+            icon={<DiMongodb />}
+            skillText="mongodb"
+            color="text-green-700 dark:text-green-500"
+          />
+          <Skill
+            icon={<SiGraphql />}
+            skillText="graphql"
+            color="text-pink-700 dark:text-pink-500"
+          />
+          <Skill
+            icon={<SiApollographql />}
+            skillText="apollo"
+            color="text-blue-700 dark:text-blue-400"
+          />
           <Skill icon={<DiGit />} skillText="git" color="text-red-600" />
           <Skill
-            icon={<SiVim />}
-            skillText="Vim"
+            icon={<SiNeovim />}
+            skillText="Neovim"
             color="text-green-800 dark:text-green-400"
           />
           <Skill
