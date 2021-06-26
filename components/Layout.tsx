@@ -15,6 +15,10 @@ const Layout: React.FC<LayoutProps> = ({ title, children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#0F172A" />
+        <meta
+          name="description"
+          content="A Portfolio website about Touhidul Shawan. This Website represent Touhidul Shawan's skills, projects, reviews and little bit of intro about him"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
         <link href="/android-chrome-192x192.png" rel="icon" sizes="192x192" />
