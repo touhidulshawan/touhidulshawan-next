@@ -10,13 +10,12 @@ const Bio: React.FC = () => {
           Touhidul Shawan
         </span>{" "}
       </h1>
-      <h2 className="text-lg text-gray-500 dark:text-gray-400 pb-3 tracking-wide">
-        A Front-End Web Developer
+      <h2 className=" text-gray-500 dark:text-gray-400 pb-3 uppercase tracking-widest font-bold filter drop-shadow-md">
+        Web Developer
       </h2>
       <p className="leading-7 tracking-tight text-sm text-gray-900 pb-3 md:text-lg md:tracking-wide md:text-gray-700 dark:text-gray-200 lg:leading-8">
-        I am a self-taught Web Developer. Currently I am a frontend developer
-        but also has interest to learn backend development. I build UI
-        components using modern frontend technology like React.
+        I am a self-taught Web Developer. I build website using modern
+        technologies like React, Nextjs, Tailwindcss, Nodejs.
       </p>
       <p className="leading-7 tracking-tight text-sm text-gray-900 pb-3 md:text-lg md:tracking-wide md:text-gray-700 dark:text-gray-200 lg:leading-8">
         Already, I have worked as freelancer in Fiverr. I have become an

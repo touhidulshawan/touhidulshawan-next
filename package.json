@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "@types/react-icons": "^3.0.0",
+    "autoprefixer": "^10.2.6",
     "next": "^10.2.3",
+    "postcss": "^8.3.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "tailwindcss": "^2.2.4"
   },
   "devDependencies": {
     "@types/react": "^17.0.3",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.9",
-    "tailwindcss": "^2.0.4",
     "typescript": "^4.2.3"
   }
 }
