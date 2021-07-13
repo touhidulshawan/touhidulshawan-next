@@ -27,7 +27,7 @@ const Bio: React.FC = () => {
         <FaHandPointRight className="w-5 h-5 text-blue-500 dark:text-yellow-400 animate-pulse" />
         <a
           href="mailto:touhidulshawan@gmail.com"
-          className="text-blue-600 border-b-4 border-opacity-0 border-blue-400 hover:border-opacity-100 focus:border-opacity-75 transform transition duration-200 md:text-lg dark:text-blue-400"
+          className="text-blue-600 border-b-4 border-opacity-0 border-blue-400 hover:border-opacity-100 focus:outline-sky focus:animate-pulse transform transition duration-200 md:text-lg dark:text-blue-400"
         >
           touhidulshawan@gmail.com
         </a>
