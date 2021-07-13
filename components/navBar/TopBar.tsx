@@ -26,11 +26,18 @@ const TopBar = () => {
         )}
       </div>
       <div className="flex flex-row-reverse items-center gap-4">
+        <div className="w-9 h-9 border-2 border-dashed rounded-full border-indigo-600 dark:border-indigo-500 flex justify-center items-center animate-spin-slow relative"></div>
         <Link href="https://github.com/touhidulshawan">
-          <a target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <AiFillGithub className="w-7 h-7 border-2 border-blue-500 rounded-full  animate-pulse focus:outline-sky focus:animate-pulse dark:border-blue-300 dark:text-gray-300 " />
+          <a
+            className="w-7 h-7  focus:outline-sky dark:text-gray-300 absolute top-7 right-7"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <AiFillGithub className="w-7 h-7" />
           </a>
         </Link>
+
         <a
           onClick={() => window.open("/_resume/TouhidulShawan.pdf")}
           // href="https://github.com/touhidulShawan/resume/blob/main/Touhidul%20Shawan.pdf"
