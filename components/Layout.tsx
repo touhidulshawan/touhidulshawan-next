@@ -19,6 +19,19 @@ const Layout: React.FC<LayoutProps> = ({ title, children }) => {
           name="description"
           content="A Portfolio website about Touhidul Shawan. This Website represent Touhidul Shawan's skills, projects, reviews and little bit of intro about him"
         />
+        <meta name="application-name" content="Touhidul Shawan" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Touhidul Shawan" />
+        <meta
+          name="description"
+          content="A Portfolio website about Touhidul Shawan."
+        />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-TileColor" content="#2B5797" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.ico" />
         <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
         <link href="/android-chrome-192x192.png" rel="icon" sizes="192x192" />
