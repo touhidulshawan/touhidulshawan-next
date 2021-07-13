@@ -9,12 +9,16 @@ module.exports = {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },
+      outline: {
+        sky: ["2px dashed #38BDF8", "3px"],
+      },
     },
   },
   variants: {
     extend: {
       backgroundColor: ["active"],
       textColor: ["active"],
+      animation: ["focus"],
     },
   },
   plugins: [],

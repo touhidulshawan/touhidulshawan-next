@@ -17,7 +17,7 @@ const NavItem: React.FC<LinkPathProps> = ({ linkPath, linkName }) => {
     <li className="list-none">
       <Link href={linkPath}>
         <a
-          className={`${activeLinkClass} text-sm  uppercase tracking-wide font-semibold hover:text-purple-300 focus:outline-none focus:ring-2 ring-purple-600 ring-offset-2  transform transition duration-300 ease-in-out md:text-base  md:tracking-wider  dark:hover:text-yellow-500`}
+          className={`${activeLinkClass} p-1 text-sm  uppercase tracking-wide font-semibold hover:text-purple-300 focus:outline-sky focus:animate-pulse  transform transition duration-300 ease-in-out md:text-base  md:tracking-wider  dark:hover:text-yellow-500`}
         >
           {linkName}
         </a>

@@ -16,19 +16,19 @@ const TopBar = () => {
         {darkMode ? (
           <RiMoonLine
             onClick={toggleTheme}
-            className="w-6 h-6 focus:outline-none focus:ring-4 dark:text-red-400 animate-pulse cursor-pointer"
+            className="w-6 h-6 focus:outline-sky focus:animate-pulse  dark:text-red-400 animate-pulse cursor-pointer"
           />
         ) : (
           <FiSun
             onClick={toggleTheme}
-            className="w-6 h-6 focus:outline-none focus:ring-4 text-red-600 animate-spin-slow cursor-pointer"
+            className="w-6 h-6 focus:outline-sky focus:animate-pulse text-red-600 animate-spin-slow cursor-pointer"
           />
         )}
       </div>
       <div className="flex flex-row-reverse items-center gap-4">
         <Link href="https://github.com/touhidulshawan">
           <a target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <AiFillGithub className="w-7 h-7 border-2 border-blue-500 rounded-full  animate-pulse focus:outline-none focus:ring-4 dark:border-blue-300 dark:text-gray-300 " />
+            <AiFillGithub className="w-7 h-7 border-2 border-blue-500 rounded-full  animate-pulse focus:outline-sky focus:animate-pulse dark:border-blue-300 dark:text-gray-300 " />
           </a>
         </Link>
         <a
@@ -38,7 +38,7 @@ const TopBar = () => {
           rel="noopener noreferrer"
           aria-label="Resume"
         >
-          <AiFillFilePdf className="w-7 h-7 text-red-600 dark:text-red-400 lg:animate-bounce focus:outline-none focus:ring-4 cursor-pointer" />
+          <AiFillFilePdf className="w-7 h-7 text-red-600 dark:text-red-400 lg:animate-bounce focus:outline-sky focus:animate-pulse cursor-pointer" />
         </a>
       </div>
     </div>
