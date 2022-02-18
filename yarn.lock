@@ -1518,7 +1518,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tar@npm:^6":
+"@types/tar@npm:^6.1.1":
   version: 6.1.1
   resolution: "@types/tar@npm:6.1.1"
   dependencies:
@@ -4857,7 +4857,7 @@ fsevents@~2.3.2:
   dependencies:
     "@types/node": ^17.0.18
     "@types/react": ^17.0.39
-    "@types/tar": ^6
+    "@types/tar": ^6.1.1
     ansi-regex: ^6.0.1
     autoprefixer: ^10.4.2
     next: ^12.1.0
