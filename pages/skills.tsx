@@ -8,7 +8,7 @@ import { DiJavascript1 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
-import { SiNextDotJs } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiGraphql } from "react-icons/si";
@@ -17,7 +17,7 @@ import { DiGit } from "react-icons/di";
 import { GrArchlinux } from "react-icons/gr";
 import { SiNeovim } from "react-icons/si";
 
-const Skills: React.FC = () => {
+const Skills = () => {
   return (
     <Layout title="Skills">
       <div className="sm:max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto">
@@ -63,7 +63,7 @@ const Skills: React.FC = () => {
             color="text-purple-600 dark:text-purple-400"
           />
           <Skill
-            icon={<SiNextDotJs />}
+            icon={<SiNextdotjs/>}
             skillText="nextjs"
             color="text-black dark:text-gray-200"
           />
