@@ -1454,6 +1454,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/minipass@npm:*":
+  version: 3.1.2
+  resolution: "@types/minipass@npm:3.1.2"
+  dependencies:
+    "@types/node": "*"
+  checksum: 0d01e11b5b959625385a482ad29ea16352be42506b459555b0f77fd82235e9c540946cc9c05a73fed1ae30b132914baaa4ccf257ed2cad20bc9773f0a06f4bac
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*":
   version: 16.3.1
   resolution: "@types/node@npm:16.3.1"
@@ -1506,6 +1515,16 @@ __metadata:
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
   checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
+  languageName: node
+  linkType: hard
+
+"@types/tar@npm:^6":
+  version: 6.1.1
+  resolution: "@types/tar@npm:6.1.1"
+  dependencies:
+    "@types/minipass": "*"
+    "@types/node": "*"
+  checksum: 06cfffc606525fab223f7e7cae74b88347a6c21de39454a9b85a56c61b4cab034e9cefacd6a053c7ac2a07e29bed71ce72bc4ca8bc101f61e2e5248950508b7d
   languageName: node
   linkType: hard
 
@@ -1624,6 +1643,13 @@ __metadata:
   version: 3.0.0
   resolution: "ansi-regex@npm:3.0.0"
   checksum: 2ad11c416f81c39f5c65eafc88cf1d71aa91d76a2f766e75e457c2a3c43e8a003aadbf2966b61c497aa6a6940a36412486c975b3270cdfc3f413b69826189ec3
+  languageName: node
+  linkType: hard
+
+"ansi-regex@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "ansi-regex@npm:6.0.1"
+  checksum: 1ff8b7667cded1de4fa2c9ae283e979fc87036864317da86a2e546725f96406746411d0d85e87a2d12fa5abd715d90006de7fa4fa0477c92321ad3b4c7d4e169
   languageName: node
   linkType: hard
 
@@ -4723,6 +4749,20 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"tar@npm:^6.1.11":
+  version: 6.1.11
+  resolution: "tar@npm:6.1.11"
+  dependencies:
+    chownr: ^2.0.0
+    fs-minipass: ^2.0.0
+    minipass: ^3.0.0
+    minizlib: ^2.1.1
+    mkdirp: ^1.0.3
+    yallist: ^4.0.0
+  checksum: a04c07bb9e2d8f46776517d4618f2406fb977a74d914ad98b264fc3db0fe8224da5bec11e5f8902c5b9bcb8ace22d95fbe3c7b36b8593b7dfc8391a25898f32f
+  languageName: node
+  linkType: hard
+
 "temp-dir@npm:^2.0.0":
   version: 2.0.0
   resolution: "temp-dir@npm:2.0.0"
@@ -4817,6 +4857,8 @@ fsevents@~2.3.2:
   dependencies:
     "@types/node": ^17.0.18
     "@types/react": ^17.0.39
+    "@types/tar": ^6
+    ansi-regex: ^6.0.1
     autoprefixer: ^10.4.2
     next: ^12.1.0
     next-pwa: ^5.4.4
@@ -4825,6 +4867,7 @@ fsevents@~2.3.2:
     react-dom: 17.0.2
     react-icons: ^4.3.1
     tailwindcss: ^3.0.23
+    tar: ^6.1.11
     typescript: ^4.5.5
   languageName: unknown
   linkType: soft
