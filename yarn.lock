@@ -1454,15 +1454,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/minipass@npm:*":
-  version: 3.1.2
-  resolution: "@types/minipass@npm:3.1.2"
-  dependencies:
-    "@types/node": "*"
-  checksum: 0d01e11b5b959625385a482ad29ea16352be42506b459555b0f77fd82235e9c540946cc9c05a73fed1ae30b132914baaa4ccf257ed2cad20bc9773f0a06f4bac
-  languageName: node
-  linkType: hard
-
 "@types/node@npm:*":
   version: 16.3.1
   resolution: "@types/node@npm:16.3.1"
@@ -1515,16 +1506,6 @@ __metadata:
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
   checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
-  languageName: node
-  linkType: hard
-
-"@types/tar@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "@types/tar@npm:6.1.1"
-  dependencies:
-    "@types/minipass": "*"
-    "@types/node": "*"
-  checksum: 06cfffc606525fab223f7e7cae74b88347a6c21de39454a9b85a56c61b4cab034e9cefacd6a053c7ac2a07e29bed71ce72bc4ca8bc101f61e2e5248950508b7d
   languageName: node
   linkType: hard
 
@@ -4735,20 +4716,6 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"tar@npm:6.1.9":
-  version: 6.1.9
-  resolution: "tar@npm:6.1.9"
-  dependencies:
-    chownr: ^2.0.0
-    fs-minipass: ^2.0.0
-    minipass: ^3.0.0
-    minizlib: ^2.1.1
-    mkdirp: ^1.0.3
-    yallist: ^4.0.0
-  checksum: 90df3af5353b423a27b15e0f07ca3191396db727b7747e9e627b5fb39dbfe8ecb511c6b2b3f2e2add3a192df0589f4fbb899babf1e03ce52ebf4a84710f1a988
-  languageName: node
-  linkType: hard
-
 "tar@npm:^6.0.2, tar@npm:^6.1.0":
   version: 6.1.0
   resolution: "tar@npm:6.1.0"
@@ -4857,7 +4824,6 @@ fsevents@~2.3.2:
   dependencies:
     "@types/node": ^17.0.18
     "@types/react": ^17.0.39
-    "@types/tar": ^6.1.1
     ansi-regex: ^6.0.1
     autoprefixer: ^10.4.2
     next: ^12.1.0
@@ -4867,7 +4833,6 @@ fsevents@~2.3.2:
     react-dom: 17.0.2
     react-icons: ^4.3.1
     tailwindcss: ^3.0.23
-    tar: 6.1.9
     typescript: ^4.5.5
   languageName: unknown
   linkType: soft
