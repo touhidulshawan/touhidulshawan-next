@@ -14,6 +14,8 @@ const Layout: React.FC<LayoutProps> = ({ title, children }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
+        <meta name="trustpilot-one-time-domain-verification-id" content="1a43d94c-dcee-4630-ad19-b6a7106041e3"/>
+        <meta name="66cf513c-ceaa-48d2-a761-fa35d1a51993" content="1a43d94c-dcee-4630-ad19-b6a7106041e3"/>
         <meta name="theme-color" content="#0F172A" />
         <meta
           name="description"
